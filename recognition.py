@@ -7,7 +7,7 @@ import numpy as np
 import time
 
 # ----------------- MongoDB Setup -----------------
-MONGODB_URI = "mongodb+srv://Kamlesh-21:Guru2004@attendencesystem.nlapsic.mongodb.net/Attendencesystem?retryWrites=true&w=majority&appName=Attendencesystem"
+MONGODB_URI = "mongodb+srv://akshay_pramanik:Akshay123p@Cluster0.nlapsic.mongodb.net/Attendencesystem?retryWrites=true&w=majority&appName=Attendencesystem"
 client = MongoClient(MONGODB_URI)
 db = client['facerecognition_db']
 collection = db['users']
@@ -167,3 +167,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
